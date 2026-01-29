@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Confere versão do ubuntu
         run: cat /etc/os-release
-      
-      -name: Exibir uma mensagem
-      run: echo "Estou fazendo o Curso de github Actions"
+
+      - name: Exibir uma mensagem
+        run: echo "Estou fazendo o Curso de github Actions"
 
