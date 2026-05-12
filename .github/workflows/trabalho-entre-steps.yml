@@ -1,0 +1,23 @@
+name: Primeiro Workflox Linux
+
+on:
+  push:
+    branches:
+      - main
+    
+jobs:
+  giropops:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confere versão do ubuntu
+        run: cat /etc/os-release
+
+      - name: Exibir uma mensagem
+        run: echo "Estou fazendo o Curso de github Actions Linuxtips" >mensage.txt
+
+      - name:
+        run: ls -lha
+
+      - name: Le conteudo do arquivo
+      run: cat mensage.txt
+
